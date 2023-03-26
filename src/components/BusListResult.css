@@ -1,0 +1,42 @@
+/* .bus-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .name {
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .departure,
+  .arrival {
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+  }
+  
+  h4 {
+    margin: 0;
+  }
+  
+  .bus-card:hover {
+    background-color: #F5F5F5;
+  }
+   */
