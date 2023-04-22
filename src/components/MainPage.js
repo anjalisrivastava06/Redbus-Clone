@@ -65,7 +65,7 @@ function MainPage() {
                 <div>
                     <img
                         style={{
-                            height:'390px',
+                            height:'360px',
                             width: '100%',
                         }}
                         src='https://st.redbus.in/seo/ind/website-banner_1280x450_1631689052.png'
