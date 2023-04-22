@@ -30,20 +30,13 @@ function MainPage() {
         setDestination(source);
     };
 
-    const handleSearch = async () => {
-        try {
-        const response = await fetch(`https://content.newtonschool.co/v1/pr/63b70222af4f30335b4b3b9a/buses 
-            source=${source}&destination=${destination}&date=${date}`);
-        const data = await response.json();
-        console.log(data); 
-        setIsSearchPerformed(true);
-        } catch (error) {
-        console.error(error);
+    function handleSearch(){
+        if(!source||!destination||!date){
+          toast.error("All fields are required")
         }
-
-        if (source.trim() === "" || destination.trim() === "" || date.trim() === "") {
-            toast.error("Please fill all fields");
-        };
+        else{
+            setIsSearchPerformed(true);
+        }
     }
     
     return (
@@ -67,7 +60,7 @@ function MainPage() {
             </div>
             
             {isSearchPerformed ? (
-                <BusList source={source} destination={destination} date={date} />
+                <BusList source={source} destination={destination} />
             ) : (
                 <div>
                     <img
