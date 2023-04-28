@@ -12,7 +12,7 @@ body {
   font-size: 40px;
   margin-top: 5rem;
   color:#002147;
-  
+
 }
 
 .form{
@@ -24,7 +24,8 @@ body {
   padding: 1.5rem;
   margin:3rem;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* border:1px solid #d2cfcf; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 #source,#destination,input[type="date"]{
   padding: 10px;

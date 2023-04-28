@@ -43,8 +43,6 @@ function MainPage() {
         <>
         <Navbar />
             <h3 className='h1'>Book Your Tickets with Us!!</h3>
-            
-
             <div className='form'>
                 <input type="text" id="source" value={source} onChange={handleSourceChange} placeholder="Source" />
 
